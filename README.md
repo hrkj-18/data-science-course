@@ -14,6 +14,6 @@
     1. [Pandas Foundations](https://hrkj-18.github.io/pandas-foundations/)
 
 4. __Data Visualization__
-
+    1. ABC
 5. __Machine Learning__
-    1.[Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn.md/) 
+    1. [Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn/chapter-1.md/) 
