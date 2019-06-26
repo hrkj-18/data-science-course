@@ -2,7 +2,7 @@
 
 ## Chapter 2 : Regression
 
-### mporting data for supervised learning
+### Importing data for supervised learning
 
 ```python
 import numpy as np
@@ -87,16 +87,74 @@ print("Root Mean Squared Error: {}".format(rmse))
 R^2: 0.838046873142936
 Root Mean Squared Error: 3.2476010800377213
 
-
+### Cross-validation
 ```python
+# Import the necessary modules
+from sklearn.linear_model import LinearRegression
+from sklearn.model_selection import cross_val_score
 
+# Create a linear regression object: reg
+reg = LinearRegression()
+
+# Compute 5-fold cross-validation scores: cv_scores
+cv_scores = cross_val_score(reg,X,y,cv=5)
+
+# Print the 5-fold cross-validation scores
+print(cv_scores)
+
+print("Average 5-Fold CV Score: {}".format(np.mean(cv_scores)))
 ```
+[ 0.81720569  0.82917058  0.90214134  0.80633989  0.94495637]
+Average 5-Fold CV Score: 0.8599627722793232
 
+### Regularization I: Lasso
 ```python
+from sklearn.linear_model import Lasso
 
+# Instantiate a lasso regressor: lasso
+lasso = Lasso(alpha=0.4,normalize=True)
+
+# Fit the regressor to the data
+lasso.fit(X,y)
+
+# Compute and print the coefficients
+lasso_coef = lasso.coef_
+print(lasso_coef)
 ```
+[-0. -0. -0. 0. 0. 0. -0. -0.07087587]
 
+
+### Regularization II: Ridge
 ```python
+# Import necessary modules
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import cross_val_score
+
+# Setup the array of alphas and lists to store scores
+alpha_space = np.logspace(-4, 0, 50)
+ridge_scores = []
+ridge_scores_std = []
+
+# Create a ridge regressor: ridge
+ridge = Ridge(normalize=True)
+
+# Compute scores over range of alphas
+for alpha in alpha_space:
+
+    # Specify the alpha value to use: ridge.alpha
+    ridge.alpha = alpha
+    
+    # Perform 10-fold CV: ridge_cv_scores
+    ridge_cv_scores = cross_val_score(ridge, X, y, cv=10)
+    
+    # Append the mean of ridge_cv_scores to ridge_scores
+    ridge_scores.append(np.mean(ridge_cv_scores))
+    
+    # Append the std of ridge_cv_scores to ridge_scores_std
+    ridge_scores_std.append(np.std(ridge_cv_scores))
+
+# Display the plot
+display_plot(ridge_scores, ridge_scores_std)
 
 ```
 
