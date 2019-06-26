@@ -75,7 +75,7 @@ plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
 plt.show()
 ```
-
+![ROC Curve](/img/roc-curve.png/)
 ```python
 
 ```
