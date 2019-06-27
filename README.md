@@ -15,5 +15,12 @@
 
 4. __Data Visualization__
     1. ABC
-5. __Machine Learning__
+    
+5. __SQL__
+
+6. __Statistical Thinking__
+    1. [Statistical Thinking in Python (Part 1)](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
+
+
+7. __Machine Learning__
     1. [Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn/chapter-1/) 
