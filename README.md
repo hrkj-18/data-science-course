@@ -11,9 +11,9 @@
         * Chapter 4 : [Loops](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/loops/)
         * Chapter 5 : [Hacker Statistics](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/hacker-statistics/)
     3. [Python Toolbox 1](https://hrkj-18.github.io/python-data-science-toolbox-part-1/)
-        * Chapter 1 : [Writing your own functions](https://hrkj-18.github.io/data-science-course/basic-python/importing-data-in-python-part-1/writing-your-own-functions/)
-        * Chapter 2 : [Default arguments, variable-length arguments and scope](https://hrkj-18.github.io/data-science-course/basic-python/importing-data-in-python-part-1/default-arguments-variable-length-arguments-and-scope/)
-        * Chapter 3 : [Lambda functions and error-handling](https://hrkj-18.github.io/data-science-course/basic-python/importing-data-in-python-part-1/lambda-functions-and-error-handling/)
+        * Chapter 1 : [Writing your own functions](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/writing-your-own-functions/)
+        * Chapter 2 : [Default arguments, variable-length arguments and scope](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/default-arguments-variable-length-arguments-and-scope/)
+        * Chapter 3 : [Lambda functions and error-handling](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/lambda-functions-and-error-handling/)
     4. [Python Toolbox 2](https://hrkj-18.github.io/python-data-science-toolbox-part-2/)
         * Chapter 1 : [](https://hrkj-18.github.io/)
         * Chapter 2 : [](https://hrkj-18.github.io/)
@@ -22,13 +22,30 @@
 
 2. __Importing & Cleaning Data with Python__
     1. [Importing Data in Python Part 1](https://hrkj-18.github.io/importing-data-in-python-part-1/)
+        * Chapter 1 : [Introduction and flat files](https://hrkj-18.github.io/)
+        * Chapter 2 : [Importing data from other file types](https://hrkj-18.github.io/)
+        * Chapter 3 : [Working with relational databases in Python](https://hrkj-18.github.io/)  
     2. [Importing Data in Python Part 2](https://hrkj-18.github.io/importing-data-in-python-part-2/)
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)    
     3. [Introduction to Databases in Python](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/)
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)    
     4. [Cleaning Data in Python](https://hrkj-18.github.io/cleaning-data-in-python/)
-
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)
 3. __Data Manipulation__ 
     1. [Pandas Foundations](https://hrkj-18.github.io/pandas-foundations/)
-
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)
 4. __Data Visualization__
     1. ABC
     
@@ -36,7 +53,14 @@
 
 6. __Statistical Thinking__
     1. [Statistical Thinking in Python (Part 1)](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
-
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)
 
 7. __Machine Learning__
-    1. [Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn/chapter-1/) 
+    1. [Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn/chapter-1/)
+        * Chapter 1 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)
