@@ -1,6 +1,6 @@
 # Python Data Science Toolbox (Part 1)
 
-## Lambda functions and error-handling
+## Chapter 3 : Lambda functions and error-handling
 
 ### Lambda Functions
 
