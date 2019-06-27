@@ -17,14 +17,14 @@ plt.scatter(x,y)
 
 plt.show()
 ```
->>![Scatterplot Example](img/scatterplot.png)
+>>![Scatterplot Example](/img/scatterplot.png)
 
 ### Histograms
 ```python
 plt.hist(x,y) #y is numbe of bins
 plt.show()
 ```
->>![Histogram Example](img/histogram-example.png)
+>>![Histogram Example](/img/histogram-example.png)
 
 ### Labels
 ```python
@@ -41,7 +41,7 @@ plt.title(title)
 
 plt.show()
 ```
->>![Labels on a Scatterplot](img/labels-example.png)
+>>![Labels on a Scatterplot](/img/labels-example.png)
 
 ### Ticks
 ```python
@@ -50,7 +50,7 @@ tick_lab = ['1k','10k','100k']
 
 plt.xticks(tick_val,tick_lab)
 ```
->>![Ticks](img/ticks-plot-example.png)
+>>![Ticks](/img/ticks-plot-example.png)
 
 ### Size
 ```python
