@@ -5,17 +5,17 @@
 ### Loading a pickled file
 
 ```python
-`import pickle`
+`import pickle
 
-`with open('data.pkl', 'rb') as file:`
-    `d = pickle.load(file)`
+with open('data.pkl', 'rb') as file:
+    d = pickle.load(file)
 
-`print(d)`
+print(d)
 ```
 >>{'June': '69.4', 'Aug': '85', 'Airline': '8', 'Mar': '84.4'}
 
 ```python
-`print(type(d))`
+print(type(d))
 ```
 >><class 'dict'>
 
@@ -23,16 +23,17 @@
 
 ```python
 `xls = pd.ExcelFile(file)
-print(xls.sheet_names)`
-```
-```python
-`df1 = xls.parse('Sheet_name')`
-`df2=xls.parse(Index of sheet)`
+print(xls.sheet_names)
 ```
 
 ```python
-`df1 = xls.parse(0, skiprows=[1], names=['Country','AAM due to War (2002)'])`
-`print(df1.head())`
+df1 = xls.parse('Sheet_name')
+df2=xls.parse(Index of sheet)
+```
+
+```python
+df1 = xls.parse(0, skiprows=[1], names=['Country','AAM due to War (2002)'])
+print(df1.head())
 ```
 >>|  |             Country|  AAM due to War (2002)|
 >>|---|---|---|
@@ -44,11 +45,11 @@ print(xls.sheet_names)`
 
 ### Importing SAS files
 ```python
-`from sas7bdat import SAS7BDAT`
+from sas7bdat import SAS7BDAT
 
-`with SAS7BDAT('sales.sas7bdat') as file:`
-    `df_sas=file.to_data_frame()`
-`print(df_sas.head())`
+with SAS7BDAT('sales.sas7bdat') as file:
+    df_sas=file.to_data_frame()
+print(df_sas.head())
 ```
 >>| |    YEAR|     P|           S|
 >>|---|---|---|---|
@@ -60,28 +61,28 @@ print(xls.sheet_names)`
 
 ### Importing Stata files
 ```python
-`import pandas as pd`
-`df=pd.read_stata('disarea.dta')`
+import pandas as pd
+df=pd.read_stata('disarea.dta')
 ```
 
 ### Importing HDF5 files
 ```python
-`import numpy as np`
-`import h5py`
+import numpy as np
+import h5py
 
-`data = h5py.File('LIGO_data.hdf5', 'r')`
-`print(type(data))`
+data = h5py.File('LIGO_data.hdf5', 'r')
+print(type(data))
 ```
 >><class 'h5py._hl.files.File'>
 
 ```python
-`for key in data.keys():`
-    `print(key)`
+for key in data.keys():
+    print(key)
 ```
 >>meta <br> quality <br> strain
 
 ```python
-`group=data['strain']`
+group=data['strain']
 print(group)
 
 for key in group.keys():
@@ -91,7 +92,7 @@ for key in group.keys():
 >>Strain
 
 ```python
-`strain=data['strain']['Strain'].value`
+strain=data['strain']['Strain'].value
 print(strain)
 print(np.shape(strain))
 print(type(strain))
@@ -100,17 +101,16 @@ print(type(strain))
 >>(131072,) <br>
 >><class 'numpy.ndarray'>
 
-
 ```python
-`num_samples=10000`
-`time = np.arange(0, 1, 1/num_samples)`
+num_samples=10000
+time = np.arange(0, 1, 1/num_samples)
 
-`plt.plot(time, strain[:num_samples])`
-`plt.xlabel('GPS Time (s)')`
-`plt.ylabel('strain')`
-`plt.show()`
+plt.plot(time, strain[:num_samples])
+plt.xlabel('GPS Time (s)')
+plt.ylabel('strain')
+plt.show()
 ```
->>![](img/hdf5-file-example.png)
+>>![hdf5-file-example](img/hdf5-file-example.png)
 
 ### Importing MATLAB files
 
@@ -122,13 +122,13 @@ print(type(mat))`
 >><class 'dict'>
 
 ```python
-`print(mat.keys())`
+print(mat.keys())
 ```
 >>dict_keys(['__header__', '__version__', '__globals__', 'rfpCyt', 'rfpNuc', 'cfpNuc', 'cfpCyt', 'yfpNuc', 'yfpCyt', 'CYratioCyt'])
 
 ```python
-`print(type(mat['CYratioCyt']))`
-`print(np.shape(mat['CYratioCyt']))`
+print(type(mat['CYratioCyt']))
+print(np.shape(mat['CYratioCyt']))
 ```
 >><class 'numpy.ndarray'> <br> (200, 137)
 
