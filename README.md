@@ -7,7 +7,7 @@
     2. [Intermediate Python for Data Science](https://hrkj-18.github.io/Intermediate-Python-for-Data-Science/)
         * Chapter 1 : [Matplotlib](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/matplotlib/)
         * Chapter 2 : [Dictionaries And Pandas](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/dictionaries-and-pandas/)
-        * Chapter 3 : [Logic Control And Flow](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/logic-control-flow and-filtering/)
+        * Chapter 3 : [Logic Control And Flow](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/logic-control-flow%20and-filtering/README.md)
         * Chapter 4 : [Loops](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/loops/)
         * Chapter 5 : [Hacker Statistics](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/hacker-statistics/)
     3. [Python Toolbox 1](https://hrkj-18.github.io/python-data-science-toolbox-part-1/)
