@@ -6,11 +6,11 @@
 
 ```python
 import json
-`with open("a_movie.json") as json_file:
-    `json_data=json.load(json_file)
+with open("a_movie.json") as json_file:
+    json_data=json.load(json_file)
 
-`for k in json_data.keys():
-    `print(k + ': ', json_data[k])
+for k in json_data.keys():
+    print(k + ': ', json_data[k])
 ```
 >>prints the whole dictionary
 
