@@ -1,7 +1,8 @@
 # Intermediate Python for Data Science
 
-### Chapter 5 : Hacker Statistics
-# Random Float
+## Chapter 5 : Hacker Statistics
+
+### Random Float
 ```python
 np.random.seed(123)
 print(np.random.rand())
