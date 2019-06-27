@@ -25,10 +25,10 @@ print(file.closed)
 ### Importing text files line by line
 
 ```python
-`with open('moby_dick.txt') as file:` #with is the context manager
-    `print(file.readline())`
-    `print(file.readline())`
-    `print(file.readline())`
+with open('moby_dick.txt') as file: #with is the context manager
+    print(file.readline())
+    print(file.readline())
+    print(file.readline())
 ```
 >>CHAPTER 1. Loomings.
 
@@ -39,21 +39,21 @@ print(file.closed)
 
 ### Using NumPy to import flat files
 ```python
-`file = 'digits.csv'
+file = 'digits.csv'
 
-`digits = np.loadtxt(file, delimiter=',')`
-`print(type(digits))`
+digits = np.loadtxt(file, delimiter=',')
+print(type(digits))
 ```
 >><class 'numpy.ndarray'>
 
 ```python
-im = digits[21, 1:]`
-im_sq = np.reshape(im, (28, 28))`
+im = digits[21, 1:]
+im_sq = np.reshape(im, (28, 28))
 ```
 
 ```python
-`plt.imshow(im_sq, cmap='Greys', interpolation='nearest')`
-`plt.show()`
+plt.imshow(im_sq, cmap='Greys', interpolation='nearest')
+plt.show()
 ```
 >>![Number 6 from MNIST dataset](/img/6.png "Number 6 from MNIST dataset")
 
@@ -63,7 +63,7 @@ There are a number of arguments that np.loadtxt() takes that you'll find useful:
 2. skiprows allows you to specify how many rows (not indices) you wish to skip; 
 3. usecols takes a list of the indices of the columns you wish to keep.
 ```python
-`data = np.loadtxt(file, delimiter='\t', skiprows=1, usecols=[0,2])`
+data = np.loadtxt(file, delimiter='\t', skiprows=1, usecols=[0,2])
 ```
 >>Prints the contents of the file skipping the first row and using columns 0th and 2nd which was tab delimited 
 
@@ -73,29 +73,29 @@ the second specifies the delimiter ,  <br>
 and the third argument names tells us there is a header. <br> 
 Because the data are of different types, data is an object called a structured array.
 ```python
-`data = np.genfromtxt('titanic.csv', delimiter=',', names=True, dtype=None)`
+data = np.genfromtxt('titanic.csv', delimiter=',', names=True, dtype=None)
 ```
 >>data=numpy array with tuples of rows
 
 ```python
-`data = np.recfromcsv('titanic.csv', delimiter=',', names=True, dtype=None)`
+data = np.recfromcsv('titanic.csv', delimiter=',', names=True, dtype=None)
 ```
 >>np.recfromcsv() that behaves similarly to np.genfromtxt(), except that its default dtype is None
 
 ### Using pandas to import flat files as DataFrames
 
 ```python
-`df = pd.read_csv(file)`
-print(df.head())`
+df = pd.read_csv(file)
+print(df.head())
 ```
 >>prints first 5 rows of the DataFrame
 
 ```python
-`data=pd.read_csv(file,nrows=5,header=None)` #takes first 5 rows only
-`data_array=data.values`
+data=pd.read_csv(file,nrows=5,header=None` #takes first 5 rows only
+data_array=data.values
 ```
 >>data_array contains only the data and is not the DataFrame
 
 ```python
-`data = pd.read_csv(file, sep='\t', comment='#', na_values='Nothing')`
+data = pd.read_csv(file, sep='\t', comment='#', na_values='Nothing')
 ```
