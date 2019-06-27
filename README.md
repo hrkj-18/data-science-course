@@ -22,9 +22,9 @@
 
 2. __Importing & Cleaning Data with Python__
     1. [Importing Data in Python Part 1](https://hrkj-18.github.io/importing-data-in-python-part-1/)
-        * Chapter 1 : [Introduction and flat files](https://hrkj-18.github.io/)
-        * Chapter 2 : [Importing data from other file types](https://hrkj-18.github.io/)
-        * Chapter 3 : [Working with relational databases in Python](https://hrkj-18.github.io/)  
+        * Chapter 1 : [Introduction and flat files](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/introduction-and-flat-files/)
+        * Chapter 2 : [Importing data from other file types](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/importing-data-from-other-file-types/)
+        * Chapter 3 : [Working with relational databases in Python](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/working-with-relational-databases-in-python/)  
     2. [Importing Data in Python Part 2](https://hrkj-18.github.io/importing-data-in-python-part-2/)
         * Chapter 1 : [](https://hrkj-18.github.io/)
         * Chapter 2 : [](https://hrkj-18.github.io/)
