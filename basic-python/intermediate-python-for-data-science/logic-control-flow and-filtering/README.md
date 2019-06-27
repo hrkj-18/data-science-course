@@ -1,6 +1,6 @@
 # Intermediate Python for Data Science
 
-## ### Chapter 3 : Logic Control And Flow
+## Chapter 3 : Logic Control And Flow
 ### Comparison of Arrays
 ```python
 my_house = np.array([18.0, 20.0, 10.75, 9.50])
