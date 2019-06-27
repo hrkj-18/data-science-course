@@ -2,8 +2,6 @@
 
 ## Chapter 2 : Python Lists
 
-<p align = 'left'> [Chapter 1 : Python Basics](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/python-lists/)</p>
-<p align = 'right'> [Chapter 3 : Functions and Packages](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/functions-and-packages/)</p>
 
 ### Lists
 
@@ -58,6 +56,3 @@ print(new_A)
 
 ```
 >>['a','b','c','d','e','f']
-
-<p align = 'left'> [Chapter 1 : Python Basics](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/python-lists/)</p>
-<p align = 'right'> [Chapter 3 : Functions and Packages](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/functions-and-packages/)</p>
