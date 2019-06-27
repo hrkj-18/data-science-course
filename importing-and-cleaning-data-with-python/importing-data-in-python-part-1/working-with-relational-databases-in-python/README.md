@@ -5,28 +5,27 @@
 ### Creating a database engine in Python
 
 ```python
-`from sqlalchemy import create_engine`
-`engine=create_engine('sqlite:///Chinook.sqlite')`
-`table_names=engine.table_names()`
-`print(table_names)`
+from sqlalchemy import create_engine
+engine=create_engine('sqlite:///Chinook.sqlite')
+table_names=engine.table_names()
+print(table_names)
 ```
 >>['Album', 'Artist', 'Customer', 'Employee', 'Genre', 'Invoice', 'InvoiceLine', 'MediaType', 'Playlist', 'PlaylistTrack', 'Track']
 
 ```python
-`# Import packages
-`from sqlalchemy import create_engine`
-`import pandas as pd`
+from sqlalchemy import create_engine
+import pandas as pd
 
-`engine = create_engine('sqlite:///Chinook.sqlite')`
+engine = create_engine('sqlite:///Chinook.sqlite')
 
-`con=engine.connect()`
-`rs = con.execute('select * from Album')`
+con=engine.connect()
+rs = con.execute('select * from Album')
 
-`df = pd.DataFrame(rs)`
+df = pd.DataFrame(rs)
 
-`con.close()`
+con.close()
 
-`print(df.head())`
+print(df.head())
 ```
 >>| |  0|                                      1|  2|
 >>|---|---|---|---|
@@ -37,13 +36,13 @@
 >>|4|  5|                               Big Ones|  3|
 
 ```python
-`with engine.connect() as con:`
-    `rs = con.execute('select LastName, Title from Employee')`
-    `df = pd.DataFrame(rs.fetchmany(3))`
-    `df.columns = rs.keys()`
+with engine.connect() as con:
+    rs = con.execute('select LastName, Title from Employee')
+    df = pd.DataFrame(rs.fetchmany(3))
+    df.columns = rs.keys()
 
-`print(len(df))`
-`print(df.head())`
+print(len(df))
+print(df.head())
 ```
 >>| | LastName|                Title|
 >>|---|---|---|
@@ -54,6 +53,6 @@
 ### SQL Queries using Pandas
 Previous block of code is same as this
 ```python
-`engine=create_engine('sqlite:///Chinook.sqlite')
-df = pd.read_sql_query('select * from Album', engine)`
+engine=create_engine('sqlite:///Chinook.sqlite')
+df = pd.read_sql_query('select * from Album', engine)
 ```
