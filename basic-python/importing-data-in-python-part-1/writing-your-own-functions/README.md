@@ -1,6 +1,6 @@
 # Python Data Science Toolbox (Part 1)
 
-## Writing your own functions
+## Chapter 1 : Writing your own functions
 
 ### Strings in Python
 
