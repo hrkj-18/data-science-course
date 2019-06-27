@@ -111,7 +111,7 @@ print(cars['country'])
 >>|RU   |           Russia|
 >>|MOR  |          Morocco|
 >>|EG   |            Egypt|
-```
+
 >>Name: country, dtype: object
 
 
@@ -143,6 +143,7 @@ print(cars[['country','drives_right']
 >>|RU|          Russia|          True|
 >>|MOR|        Morocco|          True|
 >>|EG|           Egypt|          True|
+
 #### Slicing
 ```python
 print(cars[3:6])
