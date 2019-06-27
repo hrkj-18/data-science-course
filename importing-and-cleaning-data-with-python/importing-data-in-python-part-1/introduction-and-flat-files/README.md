@@ -55,7 +55,7 @@ im_sq = np.reshape(im, (28, 28))`
 `plt.imshow(im_sq, cmap='Greys', interpolation='nearest')`
 `plt.show()`
 ```
->>![Number 6 from MNIST dataset](img/6.png "Number 6 from MNIST dataset")
+>>![Number 6 from MNIST dataset](/img/6.png "Number 6 from MNIST dataset")
 
 ### Customizing your NumPy import
 There are a number of arguments that np.loadtxt() takes that you'll find useful: 
