@@ -5,7 +5,7 @@
 ### Loading a pickled file
 
 ```python
-`import pickle
+import pickle
 
 with open('data.pkl', 'rb') as file:
     d = pickle.load(file)
@@ -22,7 +22,7 @@ print(type(d))
 ### Listing sheets in Excel files
 
 ```python
-`xls = pd.ExcelFile(file)
+xls = pd.ExcelFile(file)
 print(xls.sheet_names)
 ```
 
@@ -110,7 +110,7 @@ plt.xlabel('GPS Time (s)')
 plt.ylabel('strain')
 plt.show()
 ```
->>![hdf5-file-example](img/hdf5-file-example.png)
+>>![hdf5-file-example](/img/hdf5-file-example.png)
 
 ### Importing MATLAB files
 
