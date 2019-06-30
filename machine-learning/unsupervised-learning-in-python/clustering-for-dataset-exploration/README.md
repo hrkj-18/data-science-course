@@ -23,7 +23,7 @@ print(labels)
 
 ### Inspect your clustering
 
-````python
+```python
 # Import pyplot
 import matplotlib.pyplot as plt
 
@@ -48,6 +48,5 @@ plt.show()
 ```
 
 >>![Clustering Example](/img/clustering-example.png)
-
 ### How many clusters of grain
 
