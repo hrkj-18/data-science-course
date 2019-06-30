@@ -41,10 +41,10 @@
         * Chapter 4 : [Cleaning data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/cleaning-data-for-analysis/)
 3. __Data Manipulation__ 
     1. [Pandas Foundations](https://hrkj-18.github.io/pandas-foundations/)
-        * Chapter 1 : [](https://hrkj-18.github.io/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+        * Chapter 1 : [Data ingestion & inspection](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/data-ingestion-and-inspection/)
+        * Chapter 2 : [Exploratory data analysis](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/exploratory-data-analysis/)
+        * Chapter 3 : [Time series in pandas](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/time-series-in-pandas/)
+        * Chapter 4 : [Case Study - Sunlight in Austin](https://hrkj-18.github.io/)
 4. __Data Visualization__
     1. ABC
     
