@@ -1,6 +1,6 @@
 # Pandas Foundation
 
-## Exploratory data analysis
+## Chapter 2 : Exploratory data analysis
 
 ### Visual exploratory data analysis
 
