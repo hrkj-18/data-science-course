@@ -1,6 +1,6 @@
 # Pandas Foundation
 
-## Data ingestion & inspection
+## Chapter 1 : Data ingestion & inspection
 
 ###
 
