@@ -67,8 +67,9 @@ print(ct)
 ```
 >>![Hierarchical Clustering](/img/hierarchical-clustering-and-cross-tabulation.png)
 >>|varieties|  Canadian wheat|  Kama wheat|  Rosa wheat|
->>|labels| a| a| a|
 >>|---|---|---|---|
+>>|labels| a| a| a|
+
 >>|1|                      14|           3|           0|
 >>|2|                       0|           0|          14|
 >>|3|                       0|          11|           0|
