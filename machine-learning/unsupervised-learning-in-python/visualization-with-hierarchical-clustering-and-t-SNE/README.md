@@ -66,9 +66,10 @@ ct = pd.crosstab(df['labels'], df['varieties'])
 print(ct)
 ```
 >>![Hierarchical Clustering](/img/hierarchical-clustering-and-cross-tabulation.png)
->>varieties  Canadian wheat  Kama wheat  Rosa wheat<br>
->>labels<br>                                           
->>1                      14           3           0<br>
->>2                       0           0          14<br>
->>3                       0          11           0
+>>|varieties|  Canadian wheat|  Kama wheat|  Rosa wheat|
+>>|labels|
+>>|---|---|---|---|
+>>|1|                      14|           3|           0|
+>>|2|                       0|           0|          14|
+>>|3|                       0|          11|           0|
 
