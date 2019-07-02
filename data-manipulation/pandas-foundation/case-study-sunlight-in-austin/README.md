@@ -20,23 +20,22 @@ df_headers = pd.read_csv(data_file, header=None)
 # Print the output of df_headers.head()
 print(df_headers.head())
 ```
->><script.py> output:
-       13904  20110101  0053  12  OVC045  ...  .21  .22  .23 29.95.1  .24
-    0  13904  20110101   153  12  OVC049  ...                  30.02     
-    1  13904  20110101   253  12  OVC060  ...                  30.02     
-    2  13904  20110101   353  12  OVC065  ...                  30.04     
-    3  13904  20110101   453  12  BKN070  ...                  30.04     
-    4  13904  20110101   553  12  BKN065  ...                  30.06     
-    
-    [5 rows x 44 columns]
-          0         1    2   3       4   ... 39 40 41     42 43
-    0  13904  20110101   53  12  OVC045  ...           29.95   
-    1  13904  20110101  153  12  OVC049  ...           30.02   
-    2  13904  20110101  253  12  OVC060  ...           30.02   
-    3  13904  20110101  353  12  OVC065  ...           30.04   
-    4  13904  20110101  453  12  BKN070  ...           30.04   
-    
-    [5 rows x 44 columns]
+13904  20110101  0053  12  OVC045  ...  .21  .22  .23 29.95.1  .24
+0  13904  20110101   153  12  OVC049  ...                  30.02     
+1  13904  20110101   253  12  OVC060  ...                  30.02     
+2  13904  20110101   353  12  OVC065  ...                  30.04     
+3  13904  20110101   453  12  BKN070  ...                  30.04     
+4  13904  20110101   553  12  BKN065  ...                  30.06     
+
+[5 rows x 44 columns]
+   0         1    2   3       4   ... 39 40 41     42 43
+0  13904  20110101   53  12  OVC045  ...           29.95   
+1  13904  20110101  153  12  OVC049  ...           30.02   
+2  13904  20110101  253  12  OVC060  ...           30.02   
+3  13904  20110101  353  12  OVC065  ...           30.04   
+4  13904  20110101  453  12  BKN070  ...           30.04   
+
+[5 rows x 44 columns]
     
     
 ### Re-assigning column names
@@ -54,15 +53,14 @@ df_dropped = df.drop(list_to_drop, axis='columns')
 # Print the output of df_dropped.head()
 print(df_dropped.head())
 ```
->><script.py> output:
-        Wban      date  Time  StationType sky_condition  ... relative_humidity wind_speed wind_direction station_pressure sea_level_pressure
-    0  13904  20110101    53           12        OVC045  ...                24         15            360            29.42              29.95
-    1  13904  20110101   153           12        OVC049  ...                23         10            340            29.49              30.01
-    2  13904  20110101   253           12        OVC060  ...                22         15            010            29.49              30.01
-    3  13904  20110101   353           12        OVC065  ...                27          7            350            29.51              30.03
-    4  13904  20110101   453           12        BKN070  ...                25         11            020            29.51              30.04
+ Wban      date  Time  StationType sky_condition  ... relative_humidity wind_speed wind_direction station_pressure sea_level_pressure
+0  13904  20110101    53           12        OVC045  ...                24         15            360            29.42              29.95
+1  13904  20110101   153           12        OVC049  ...                23         10            340            29.49              30.01
+2  13904  20110101   253           12        OVC060  ...                22         15            010            29.49              30.01
+3  13904  20110101   353           12        OVC065  ...                27          7            350            29.51              30.03
+4  13904  20110101   453           12        BKN070  ...                25         11            020            29.51              30.04
     
-    [5 rows x 17 columns]
+[5 rows x 17 columns]
 
 ### Cleaning and tidying datetime data
 ```python
@@ -84,14 +82,14 @@ df_clean = df_dropped.set_index(date_times)
 # Print the output of df_clean.head()
 print(df_clean.head())
 ```
->>                          Wban      date  Time  StationType sky_condition  ... relative_humidity wind_speed wind_direction station_pressure sea_level_pressure
-    2011-01-01 00:53:00  13904  20110101  0053           12        OVC045  ...                24         15            360            29.42              29.95
-    2011-01-01 01:53:00  13904  20110101  0153           12        OVC049  ...                23         10            340            29.49              30.01
-    2011-01-01 02:53:00  13904  20110101  0253           12        OVC060  ...                22         15            010            29.49              30.01
-    2011-01-01 03:53:00  13904  20110101  0353           12        OVC065  ...                27          7            350            29.51              30.03
-    2011-01-01 04:53:00  13904  20110101  0453           12        BKN070  ...                25         11            020            29.51              30.04
+                   Wban      date  Time  StationType sky_condition  ... relative_humidity wind_speed wind_direction station_pressure sea_level_pressure
+2011-01-01 00:53:00  13904  20110101  0053           12        OVC045  ...                24         15            360            29.42              29.95
+2011-01-01 01:53:00  13904  20110101  0153           12        OVC049  ...                23         10            340            29.49              30.01
+2011-01-01 02:53:00  13904  20110101  0253           12        OVC060  ...                22         15            010            29.49              30.01
+2011-01-01 03:53:00  13904  20110101  0353           12        OVC065  ...                27          7            350            29.51              30.03
+2011-01-01 04:53:00  13904  20110101  0453           12        BKN070  ...                25         11            020            29.51              30.04
     
-    [5 rows x 17 columns]
+[5 rows x 17 columns]
 
 ### Cleaning the numeric columns
 ```python
@@ -108,28 +106,28 @@ print(df_clean.loc['2011-6-20 8:00:00':'2011-6-20 9:00:00', 'dry_bulb_faren'])
 df_clean['wind_speed'] = pd.to_numeric(df_clean['wind_speed'], errors='coerce')
 df_clean['dew_point_faren'] = pd.to_numeric(df_clean['dew_point_faren'], errors='coerce')
 ```
->>    2011-06-20 08:27:00     M
-    2011-06-20 08:28:00     M
-    2011-06-20 08:29:00     M
-    2011-06-20 08:30:00     M
-    2011-06-20 08:31:00     M
-    2011-06-20 08:32:00     M
-    2011-06-20 08:33:00     M
-    2011-06-20 08:34:00     M
-    2011-06-20 08:35:00     M
-    2011-06-20 08:53:00    83
-    Name: dry_bulb_faren, dtype: object
-    2011-06-20 08:27:00     NaN
-    2011-06-20 08:28:00     NaN
-    2011-06-20 08:29:00     NaN
-    2011-06-20 08:30:00     NaN
-    2011-06-20 08:31:00     NaN
-    2011-06-20 08:32:00     NaN
-    2011-06-20 08:33:00     NaN
-    2011-06-20 08:34:00     NaN
-    2011-06-20 08:35:00     NaN
-    2011-06-20 08:53:00    83.0
-    Name: dry_bulb_faren, dtype: float64
+2011-06-20 08:27:00     M
+2011-06-20 08:28:00     M
+2011-06-20 08:29:00     M
+2011-06-20 08:30:00     M
+2011-06-20 08:31:00     M
+2011-06-20 08:32:00     M
+2011-06-20 08:33:00     M
+2011-06-20 08:34:00     M
+2011-06-20 08:35:00     M
+2011-06-20 08:53:00    83
+Name: dry_bulb_faren, dtype: object
+2011-06-20 08:27:00     NaN
+2011-06-20 08:28:00     NaN
+2011-06-20 08:29:00     NaN
+2011-06-20 08:30:00     NaN
+2011-06-20 08:31:00     NaN
+2011-06-20 08:32:00     NaN
+2011-06-20 08:33:00     NaN
+2011-06-20 08:34:00     NaN
+2011-06-20 08:35:00     NaN
+2011-06-20 08:53:00    83.0
+Name: dry_bulb_faren, dtype: float64
 
 ### Statistical exploratory data analysis
 
@@ -144,9 +142,9 @@ print(df_clean.loc['2011-Apr':'2011-Jun', 'dry_bulb_faren'].median())
 # Print the median of the dry_bulb_faren column for the month of January
 print(df_clean.loc['2011-Jan', 'dry_bulb_faren'].median())
 ```
->>    72.0
-    78.0
-    48.0
+72.0
+78.0
+48.0
 
 ### Signal variance
 ```python
@@ -182,7 +180,7 @@ sunny_daily_max = sunny.resample('D').max()
 # See the result
 sunny_daily_max.head()
 ```
->>               Wban      date    Time  StationType sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
+               Wban      date    Time  StationType sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
 2011-01-01  13904.0  20110101  235300         12.0           CLR  ...                 53       16.0            360            29.78               30.33
 2011-01-02  13904.0  20110102  225300         12.0           CLR  ...                 76        8.0            360            29.82               30.38
 2011-01-03  13904.0  20110103  045300         12.0           CLR  ...                 85        0.0            000            29.71               30.27
@@ -205,7 +203,7 @@ overcast_daily_max = overcast.resample('D').max()
 # See the result
 overcast_daily_max.head()
 ```
->>               Wban      date    Time  StationType  sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
+               Wban      date    Time  StationType  sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
 2011-01-01  13904.0  20110101  035300         12.0         OVC065  ...                 27       15.0            360            29.51               30.03
 2011-01-02      NaN       NaN     NaN          NaN            NaN  ...                NaN        NaN            NaN              NaN                 NaN
 2011-01-03  13904.0  20110103  235300         12.0  SCT042 OVC055  ...                 79       10.0            200            29.70                   M
@@ -232,7 +230,7 @@ overcast_daily_max_mean = overcast_daily_max.mean()
 # Print the difference (sunny minus overcast)
 print(sunny_daily_max_mean - overcast_daily_max_mean)
 ```
->>Wban               0.000000
+Wban               0.000000
 StationType        0.000000
 dry_bulb_faren     6.504304
 dew_point_faren   -4.339286
