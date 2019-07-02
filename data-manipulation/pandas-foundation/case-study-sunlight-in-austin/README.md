@@ -180,7 +180,7 @@ sunny_daily_max = sunny.resample('D').max()
 # See the result
 sunny_daily_max.head()
 ```
-               Wban      date    Time  StationType sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
+              Wban      date    Time  StationType sky_condition  ...  relative_humidity wind_speed wind_direction station_pressure  sea_level_pressure
 2011-01-01  13904.0  20110101  235300         12.0           CLR  ...                 53       16.0            360            29.78               30.33
 2011-01-02  13904.0  20110102  225300         12.0           CLR  ...                 76        8.0            360            29.82               30.38
 2011-01-03  13904.0  20110103  045300         12.0           CLR  ...                 85        0.0            000            29.71               30.27
