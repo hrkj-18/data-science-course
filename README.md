@@ -1,10 +1,10 @@
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-4088113592265747",
     enable_page_level_ads: true
   });
-</script>
+</script></head>
 
 1. __Basic Python__
     1. [Introduction to Python](https://hrkj-18.github.io/introduction-to-python/)
