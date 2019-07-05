@@ -85,81 +85,140 @@ print(component.nlargest())
 
 ### Explore the LED digits dataset
 ```python
+# Import pyplot
+from matplotlib import pyplot as plt
 
+# Select the 0th row: digit
+digit = samples[0,:]
+
+# Print digit
+print(digit)
+
+# Reshape digit to a 13x8 array: bitmap
+bitmap = digit.reshape((13, 8))
+
+# Print bitmap
+print(bitmap)
+
+# Use plt.imshow to display bitmap
+plt.imshow(bitmap, cmap='gray', interpolation='nearest')
+plt.colorbar()
+plt.show()
 ```
->>
+>>![](/img/bitmap.png)
 
 
-### 
+### NMF learns the parts of images
 ```python
+# Import NMF
+from sklearn.decomposition import NMF
 
+# Create an NMF model: model
+model = NMF(n_components=7)
+
+# Apply fit_transform to samples: features
+features = model.fit_transform(samples)
+
+# Call show_as_image on each component
+for component in model.components_:
+    show_as_image(component)
+
+# Select the 0th row of features: digit_features
+digit_features = features[0,:]
+
+# Print digit_features
+print(digit_features)
 ```
 >>
 
-### 
+### PCA doesn't learn parts
 ```python
+# Import PCA
+from sklearn.decomposition import PCA
 
+# Create a PCA instance: model
+model = PCA(n_components=7)
+
+# Apply fit_transform to samples: features
+features = model.fit_transform(samples)
+
+# Call show_as_image on each component
+for component in model.components_:
+    show_as_image(component)
+    
 ```
 >>
 
-### 
+### Which articles are similar to 'Cristiano Ronaldo'?
 ```python
+# Perform the necessary imports
+import pandas as pd
+from sklearn.preprocessing import normalize
 
+# Normalize the NMF features: norm_features
+norm_features = normalize(nmf_features)
+
+# Create a DataFrame: df
+df = pd.DataFrame(norm_features, index=titles)
+
+# Select the row corresponding to 'Cristiano Ronaldo': article
+article = df.loc['Cristiano Ronaldo']
+
+# Compute the dot products: similarities
+similarities = df.dot(article)
+
+# Display those with the largest cosine similarity
+print(similarities.nlargest())
 ```
->>
+>>Cristiano Ronaldo                1.000000
+Franck Ribéry                    0.999972
+Radamel Falcao                   0.999942
+Zlatan Ibrahimović               0.999942
+France national football team    0.999923
+dtype: float64
 
-### 
+### Recommend musical artists
 ```python
+# Perform the necessary imports
+from sklearn.decomposition import NMF
+from sklearn.preprocessing import Normalizer, MaxAbsScaler
+from sklearn.pipeline import make_pipeline
+
+# Create a MaxAbsScaler: scaler
+scaler = MaxAbsScaler()
+
+# Create an NMF model: nmf
+nmf = NMF(n_components=20)
+
+# Create a Normalizer: normalizer
+normalizer = Normalizer()
+
+# Create a pipeline: pipeline
+pipeline = make_pipeline(scaler, nmf, normalizer)
+
+# Apply fit_transform to artists: norm_features
+norm_features = pipeline.fit_transform(artists)
+
+
+# Import pandas
+import pandas as pd
+
+# Create a DataFrame: df
+df = pd.DataFrame(norm_features, index=artist_names)
+
+# Select row of 'Bruce Springsteen': artist
+artist = df.loc['Bruce Springsteen']
+
+# Compute cosine similarities: similarities
+similarities = df.dot(artist)
+
+# Display those with highest cosine similarity
+print(similarities.nlargest())
 
 ```
->>
-
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
-
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
-
-### 
-```python
-
-```
->>
+>>Bruce Springsteen    1.000000
+Neil Young           0.955896
+Van Morrison         0.872452
+Leonard Cohen        0.864763
+Bob Dylan            0.859047
+dtype: float64
