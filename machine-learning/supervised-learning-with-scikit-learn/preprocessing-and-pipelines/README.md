@@ -183,7 +183,7 @@ print("Tuned Model Parameters: {}".format(cv.best_params_))
 >>|---|---|---|---|---|
 >>|   False|       0.83|      0.85|      0.84|       662|
 >>|    True|       0.67|      0.63|      0.65|       318|
->>|avg / total|    0.78|      0.78|      0.78|       980|
+>>|avg / total|    0.78|      0.78|      0.78|       980|<br>
 >>Tuned Model Parameters: {'SVM__C': 10, 'SVM__gamma': 0.1} <br>
     
 ### Bringing it all together II: Pipeline for regression
