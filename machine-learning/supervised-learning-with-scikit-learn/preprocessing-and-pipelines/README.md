@@ -6,9 +6,9 @@
 ```python
 print(df.columns)
 ```
-Index(['population', 'fertility', 'HIV', 'CO2', 'BMI_male', 'GDP',
-       'BMI_female', 'life', 'child_mortality', 'Region'],
-      dtype='object')
+>>Index(['population', 'fertility', 'HIV', 'CO2', 'BMI_male', 'GDP',
+>>       'BMI_female', 'life', 'child_mortality', 'Region'],
+>>      dtype='object')
 ```python
 # Create dummy variables: df_region
 df_region = pd.get_dummies(df)
@@ -22,7 +22,7 @@ df_region = pd.get_dummies(df,drop_first=True)
 # Print the new columns of df_region
 print(df_region.columns)
 ```
-Index(['population', 'fertility', 'HIV', 'CO2', 'BMI_male', 'GDP',
+>>Index(['population', 'fertility', 'HIV', 'CO2', 'BMI_male', 'GDP',
        'BMI_female', 'life', 'child_mortality', 'Region_America',
        'Region_East Asia & Pacific', 'Region_Europe & Central Asia',
        'Region_Middle East & North Africa', 'Region_South Asia',
@@ -87,12 +87,12 @@ y_pred = pipeline.predict(X_test)
 # Compute metrics
 print(classification_report(y_test, y_pred))
 ```
-                 precision    recall  f1-score   support
-    
-       democrat       0.99      0.96      0.98        85
-     republican       0.94      0.98      0.96        46
-    
-    avg / total       0.97      0.97      0.97       131
+   precision    recall  f1-score   support
+
+democrat       0.99      0.96      0.98        85
+republican       0.94      0.98      0.96        46
+
+avg / total       0.97      0.97      0.97       131
 
 ### Centering and scaling
 
@@ -111,10 +111,10 @@ print("Standard Deviation of Unscaled Features: {}".format(np.std(X)))
 print("Mean of Scaled Features: {}".format(np.mean(X_scaled))) 
 print("Standard Deviation of Scaled Features: {}".format(np.std(X_scaled)))
 ```
-Mean of Unscaled Features: 18.432687072460002
-Standard Deviation of Unscaled Features: 41.54494764094571
-Mean of Scaled Features: 2.7314972981668206e-15
-Standard Deviation of Scaled Features: 0.9999999999999999
+>>Mean of Unscaled Features: 18.432687072460002 <br>
+>>Standard Deviation of Unscaled Features: 41.54494764094571 <br>
+>>Mean of Scaled Features: 2.7314972981668206e-15 <br>
+>>Standard Deviation of Scaled Features: 0.9999999999999999
 
 
 ### Centering and scaling in a pipeline
@@ -145,8 +145,8 @@ print('Accuracy without Scaling: {}'.format(knn_unscaled.score(X_test, y_test)))
 
 ```
 
-Accuracy with Scaling: 0.7700680272108843
-Accuracy without Scaling: 0.6979591836734694
+>>Accuracy with Scaling: 0.7700680272108843 <br>
+>>Accuracy without Scaling: 0.6979591836734694
 
 ### Bringing it all together I: Pipeline for classification
 
@@ -179,15 +179,15 @@ print(classification_report(y_test, y_pred))
 print("Tuned Model Parameters: {}".format(cv.best_params_))
 
 ```
-    Accuracy: 0.7795918367346939
-                 precision    recall  f1-score   support
-    
-          False       0.83      0.85      0.84       662
-           True       0.67      0.63      0.65       318
-    
-    avg / total       0.78      0.78      0.78       980
-    
-    Tuned Model Parameters: {'SVM__C': 10, 'SVM__gamma': 0.1}
+>>Accuracy: 0.7795918367346939 <br>
+>>          precision    recall  f1-score   support <br>
+>> <br>
+>>   False       0.83      0.85      0.84       662 <br>
+>>    True       0.67      0.63      0.65       318 <br>
+>>
+>>avg / total    0.78      0.78      0.78       980 <br>
+>> <br>
+>>Tuned Model Parameters: {'SVM__C': 10, 'SVM__gamma': 0.1} <br>
     
 ### Bringing it all together II: Pipeline for regression
 ```python
@@ -217,5 +217,5 @@ print("Tuned ElasticNet Alpha: {}".format(gm_cv.best_params_))
 print("Tuned ElasticNet R squared: {}".format(r2))
 
 ```
-Tuned ElasticNet Alpha: {'elasticnet__l1_ratio': 1.0}
-Tuned ElasticNet R squared: 0.8862016570888217
+>>Tuned ElasticNet Alpha: {'elasticnet__l1_ratio': 1.0} <br>
+>>Tuned ElasticNet R squared: 0.8862016570888217
