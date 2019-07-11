@@ -87,7 +87,7 @@ y_pred = pipeline.predict(X_test)
 # Compute metrics
 print(classification_report(y_test, y_pred))
 ```
->>|          precision|    recall|  f1-score|   support|
+>>|   |       precision|    recall|  f1-score|   support|
 >>|---|---|---|---|---|
 >>|democrat|       0.99|      0.96|      0.98|        85|
 >>|republican|       0.94|      0.98|      0.96|        46|
@@ -179,7 +179,7 @@ print("Tuned Model Parameters: {}".format(cv.best_params_))
 
 ```
 >>Accuracy: 0.7795918367346939 <br>
->>|          precision|    recall|  f1-score|   support|
+>>|    |      precision|    recall|  f1-score|   support|
 >>|---|---|---|---|---|
 >>|   False|       0.83|      0.85|      0.84|       662|
 >>|    True|       0.67|      0.63|      0.65|       318|
