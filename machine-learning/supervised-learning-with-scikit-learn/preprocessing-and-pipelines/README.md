@@ -179,6 +179,7 @@ print("Tuned Model Parameters: {}".format(cv.best_params_))
 
 ```
 >>Accuracy: 0.7795918367346939 <br>
+
 >>|    |      precision|    recall|  f1-score|   support|
 >>|---|---|---|---|---|
 >>|   False|       0.83|      0.85|      0.84|       662|
