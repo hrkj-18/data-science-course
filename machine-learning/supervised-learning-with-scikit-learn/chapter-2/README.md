@@ -27,10 +27,10 @@ X = np.reshape(X,(-1,1))
 print("Dimensions of y after reshaping: {}".format(y.shape))
 print("Dimensions of X after reshaping: {}".format(X.shape))
 ```
-Dimensions of y before reshaping: (139,)
-Dimensions of X before reshaping: (139,)
-Dimensions of y after reshaping: (139, 1)
-Dimensions of X after reshaping: (139, 1)
+>>Dimensions of y before reshaping: (139,) <br>
+>>Dimensions of X before reshaping: (139,) <br>
+>>Dimensions of y after reshaping: (139, 1) <br>
+>>Dimensions of X after reshaping: (139, 1) <br>
 
 
 ### The basics of linear regression
@@ -58,7 +58,6 @@ print(reg.score(X_fertility , y))
 # Plot regression line
 plt.plot(prediction_space, y_pred, color='black', linewidth=3)
 plt.show()
-
 ```
 
 ```python
@@ -84,8 +83,8 @@ print("R^2: {}".format(reg_all.score(X_test, y_test)))
 rmse = np.sqrt(mean_squared_error(y_test, y_pred))
 print("Root Mean Squared Error: {}".format(rmse))
 ```
-R^2: 0.838046873142936
-Root Mean Squared Error: 3.2476010800377213
+>>R^2: 0.838046873142936 <br>
+>>Root Mean Squared Error: 3.2476010800377213
 
 ### Cross-validation
 ```python
@@ -104,8 +103,8 @@ print(cv_scores)
 
 print("Average 5-Fold CV Score: {}".format(np.mean(cv_scores)))
 ```
-[ 0.81720569  0.82917058  0.90214134  0.80633989  0.94495637]
-Average 5-Fold CV Score: 0.8599627722793232
+>>[ 0.81720569  0.82917058  0.90214134  0.80633989  0.94495637] <br>
+>>Average 5-Fold CV Score: 0.8599627722793232
 
 ### Regularization I: Lasso
 ```python
@@ -121,7 +120,7 @@ lasso.fit(X,y)
 lasso_coef = lasso.coef_
 print(lasso_coef)
 ```
-[-0. -0. -0. 0. 0. 0. -0. -0.07087587]
+>>[-0. -0. -0. 0. 0. 0. -0. -0.07087587]
 
 
 ### Regularization II: Ridge
@@ -155,14 +154,4 @@ for alpha in alpha_space:
 
 # Display the plot
 display_plot(ridge_scores, ridge_scores_std)
-
 ```
-
-```python
-
-```
-
-```python
-
-```
-
