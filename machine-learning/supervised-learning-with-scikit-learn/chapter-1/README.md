@@ -17,9 +17,9 @@ knn = KNeighborsClassifier()
 # Fit the classifier to the data
 knn.fit(X,y)
 ```
-KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
-           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
-           weights='uniform')
+>>KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+>>           metric_params=None, n_jobs=1, n_neighbors=5, p=2,
+>>           weights='uniform')
 
 ### k-Nearest Neighbors: Predict
 ```python
@@ -43,9 +43,9 @@ print(digits.keys())
 print(digits.images.shape)
 print(digits.data.shape)
 ```
-dict_keys(['data', 'target', 'target_names', 'images', 'DESCR'])
-(1797, 8, 8)
-(1797, 64)
+>>dict_keys(['data', 'target', 'target_names', 'images', 'DESCR'])
+>>(1797, 8, 8)
+>>(1797, 64)
 
 ```python
 # Import necessary modules
@@ -68,7 +68,7 @@ knn.fit(X_train,y_train)
 # Print the accuracy
 print(knn.score(X_test, y_test))
 ```
-0.983333333333
+>>0.983333333333
 
 ### Overfitting and underfitting
 ```python
@@ -90,4 +90,4 @@ for i, k in enumerate(neighbors):
     #Compute accuracy on the testing set
     test_accuracy[i] = knn.score(X_test, y_test)
 ```
-array([ 0.95827538,  0.945758  ,  0.96383866,  0.95132128,  0.96244784,  0.9527121 ,  0.95410292,  0.94853964])
+>>array([ 0.95827538,  0.945758  ,  0.96383866,  0.95132128,  0.96244784,  0.9527121 ,  0.95410292,  0.94853964])
