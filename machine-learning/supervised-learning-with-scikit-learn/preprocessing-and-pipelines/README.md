@@ -27,7 +27,7 @@ print(df_region.columns)
        'Region_East Asia & Pacific', 'Region_Europe & Central Asia',
        'Region_Middle East & North Africa', 'Region_South Asia',
        'Region_Sub-Saharan Africa'],
-      dtype='object')
+      dtype='object') <br>
 Index(['population', 'fertility', 'HIV', 'CO2', 'BMI_male', 'GDP',
        'BMI_female', 'life', 'child_mortality', 'Region_East Asia & Pacific',
        'Region_Europe & Central Asia', 'Region_Middle East & North Africa',
@@ -87,12 +87,11 @@ y_pred = pipeline.predict(X_test)
 # Compute metrics
 print(classification_report(y_test, y_pred))
 ```
-   precision    recall  f1-score   support
-
-democrat       0.99      0.96      0.98        85
-republican       0.94      0.98      0.96        46
-
-avg / total       0.97      0.97      0.97       131
+>>|          precision|    recall|  f1-score|   support|
+>>|---|---|---|---|---|
+>>|democrat|       0.99|      0.96|      0.98|        85|
+>>|republican|       0.94|      0.98|      0.96|        46|
+>>|avg / total|       0.97|      0.97|      0.97|       131|
 
 ### Centering and scaling
 
@@ -180,13 +179,11 @@ print("Tuned Model Parameters: {}".format(cv.best_params_))
 
 ```
 >>Accuracy: 0.7795918367346939 <br>
->>          precision    recall  f1-score   support <br>
->> <br>
->>   False       0.83      0.85      0.84       662 <br>
->>    True       0.67      0.63      0.65       318 <br>
->>
->>avg / total    0.78      0.78      0.78       980 <br>
->> <br>
+>>|          precision|    recall|  f1-score|   support|
+>>|---|---|---|---|---|
+>>|   False|       0.83|      0.85|      0.84|       662|
+>>|    True|       0.67|      0.63|      0.65|       318|
+>>|avg / total|    0.78|      0.78|      0.78|       980|
 >>Tuned Model Parameters: {'SVM__C': 10, 'SVM__gamma': 0.1} <br>
     
 ### Bringing it all together II: Pipeline for regression
