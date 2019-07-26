@@ -49,6 +49,11 @@
     1. ABC
     
 5. __SQL__
+    1. Intro to SQL for Data Science
+        * Chapter 1 : [Selecting columns](https://hrkj-18.github.io/data-science-course/sql/intro-to-sql-for-data-science/selecting-columns/)
+        * Chapter 2 : [Filtering rows](https://hrkj-18.github.io/data-science-course/sql/intro-to-sql-for-data-science/filtering-rows/)
+        * Chapter 3 : [Aggregate Functions](https://hrkj-18.github.io/data-science-course/sql/intro-to-sql-for-data-science//aggregate-functions/)
+        * Chapter 4 : [Sorting, grouping and joins](https://hrkj-18.github.io/data-science-course/sql/intro-to-sql-for-data-science/sorting-grouping-and-joins/)
 
 6. __Statistical Thinking__
     1. [Statistical Thinking in Python (Part 1)](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
