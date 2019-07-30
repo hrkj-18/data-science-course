@@ -68,7 +68,13 @@
         * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/sql/)
 
 6. __Statistical Thinking__
-    1. [Statistical Thinking in Python (Part 1)](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
+    1. Statistical Thinking in Python (Part 1)
+        * Chapter 1 : [Graphical Exploratory Data Analysis](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
+        * Chapter 2 : [](https://hrkj-18.github.io/)
+        * Chapter 3 : [](https://hrkj-18.github.io/)
+        * Chapter 4 : [](https://hrkj-18.github.io/)
+        
+    2. Statistical Thinking in Python (Part 2)
         * Chapter 1 : [](https://hrkj-18.github.io/)
         * Chapter 2 : [](https://hrkj-18.github.io/)
         * Chapter 3 : [](https://hrkj-18.github.io/)
