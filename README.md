@@ -50,7 +50,7 @@
         
 3. __Data Manipulation__ 
 
-    1. [Pandas Foundations](https://hrkj-18.github.io/pandas-foundations/)
+    1. __Pandas Foundations__
         * Chapter 1 : [Data ingestion & inspection](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/data-ingestion-and-inspection/)
         * Chapter 2 : [Exploratory data analysis](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/exploratory-data-analysis/)
         * Chapter 3 : [Time series in pandas](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/time-series-in-pandas/)
@@ -58,7 +58,17 @@
         
 4. __Data Visualization__
 
-    1. ABC
+    1. __Introduction to Data Visualization with Python__    
+        * Chapter 1 : [Customizing plots](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/customizing-plots/)
+        * Chapter 2 : [Plotting 2D arrays](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
+        * Chapter 3 : [Statistical plots with Seaborn](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
+        * Chapter 4 : [Analyzing time series and images](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
+        
+    2. 
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)    
     
 5. __SQL__
 
