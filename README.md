@@ -1,20 +1,20 @@
 1. __Basic Python__
-    1. [Introduction to Python](https://hrkj-18.github.io/introduction-to-python/)
+    1. Introduction to Python
         * Chapter 1 : [Python Basics](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/python-basics/)
         * Chapter 2 : [Python Lists](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/python-lists/)
         * Chapter 3 : [Functions And Packages](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/functions-and-packages/)
         * Chapter 4 : [NumPy](https://hrkj-18.github.io/data-science-course/basic-python/introduction-to-python/numpy/)
-    2. [Intermediate Python for Data Science](https://hrkj-18.github.io/Intermediate-Python-for-Data-Science/)
+    2. Intermediate Python for Data Science
         * Chapter 1 : [Matplotlib](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/matplotlib/)
         * Chapter 2 : [Dictionaries And Pandas](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/dictionaries-and-pandas/)
         * Chapter 3 : [Logic Control And Flow](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/logic-control-flow%20and-filtering/)
         * Chapter 4 : [Loops](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/loops/)
         * Chapter 5 : [Hacker Statistics](https://hrkj-18.github.io/data-science-course/basic-python/intermediate-python-for-data-science/hacker-statistics/)
-    3. [Python Toolbox 1](https://hrkj-18.github.io/python-data-science-toolbox-part-1/)
+    3. Python Toolbox 1
         * Chapter 1 : [Writing your own functions](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/writing-your-own-functions/)
         * Chapter 2 : [Default arguments, variable-length arguments and scope](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/default-arguments-variable-length-arguments-and-scope/)
         * Chapter 3 : [Lambda functions and error-handling](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/lambda-functions-and-error-handling/)
-    4. [Python Toolbox 2](https://hrkj-18.github.io/python-data-science-toolbox-part-2/)
+    4. Python Toolbox 2
         * Chapter 1 : [](https://hrkj-18.github.io/)
         * Chapter 2 : [](https://hrkj-18.github.io/)
         * Chapter 3 : [](https://hrkj-18.github.io/)
