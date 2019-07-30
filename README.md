@@ -26,23 +26,23 @@
 
 2. __Importing & Cleaning Data with Python__
 
-    1. [Importing Data in Python Part 1](https://hrkj-18.github.io/importing-data-in-python-part-1/)
+    1. __Importing Data in Python Part 1__
         * Chapter 1 : [Introduction and flat files](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/introduction-and-flat-files/)
         * Chapter 2 : [Importing data from other file types](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/importing-data-from-other-file-types/)
         * Chapter 3 : [Working with relational databases in Python](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-1/working-with-relational-databases-in-python/) 
         
-    2. [Importing Data in Python Part 2](https://hrkj-18.github.io/importing-data-in-python-part-2/)
+    2. __Importing Data in Python Part 2__
         * Chapter 1 : [Importing data from the Internet](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/importing-data-from-the-internet/)
         * Chapter 2 : [Interacting with APIs to import data from the web](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/interacting-with-APIs-to-import-data-from-the-web/)
         * Chapter 3 : [Diving deep into the Twitter API](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/diving-deep-into-the-twitter-API/)  
         
-    3. [Introduction to Databases in Python](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/)
+    3. __Introduction to Databases in Python__
         * Chapter 1 : [](https://hrkj-18.github.io/)
         * Chapter 2 : [](https://hrkj-18.github.io/)
         * Chapter 3 : [](https://hrkj-18.github.io/)
         * Chapter 4 : [](https://hrkj-18.github.io/)
         
-    4. [Cleaning Data in Python](https://hrkj-18.github.io/cleaning-data-in-python/)
+    4. __Cleaning Data in Python__
         * Chapter 1 : [Exploring your data](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/exploring-your-data/)
         * Chapter 2 : [Tidying data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/tidying-data-for-analysis/)
         * Chapter 3 : [Combining data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/combining-data-for-analysis/)
