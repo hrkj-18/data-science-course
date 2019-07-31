@@ -60,8 +60,8 @@
 
     1. __Introduction to Data Visualization with Python__    
         * Chapter 1 : [Customizing plots](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/customizing-plots/)
-        * Chapter 2 : [Plotting 2D arrays](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
-        * Chapter 3 : [Statistical plots with Seaborn](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
+        * Chapter 2 : [Plotting 2D arrays](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/plotting-2d-arrays/)
+        * Chapter 3 : [Statistical plots with Seaborn](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/statistical-plots-with-seaborn/)
         * Chapter 4 : [Analyzing time series and images](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
         
     2. 
