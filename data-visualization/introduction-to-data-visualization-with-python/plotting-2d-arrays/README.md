@@ -149,7 +149,7 @@ print("The rescaled smallest & largest pixel intensities are %.1f & %.1f." %
       (rescaled_image.min(), rescaled_image.max()))
 
 # Display the original image in the top subplot
-plt.subplot(2,1a,1)
+plt.subplot(2,1,1)
 plt.title('original image')
 plt.axis('off')
 plt.imshow(image)
