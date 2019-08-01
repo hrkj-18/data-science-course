@@ -149,7 +149,6 @@ p.circle(x='Column_name', y='Column_name', color='Column_name', size=8, source=s
 # Similar to 
 p.circle(x=df['Year'], y=df['Time'], color=df['color'], size=8)
 ```
->>![](img/.png)
 
 ### Selection and non-selection glyphs
 ```python
@@ -165,21 +164,39 @@ show(p)
 ```
 >>![](img/boken_plot-box-select.gif)
 
-### 
+### Hover glyphs
 ```python
+# import the HoverTool
+from bokeh.models import HoverTool
+
+# Add a circle glyphs to figure p
+p.circle(x, y, size=10,
+         fill_color='grey', alpha=0.1, line_color=None,
+         hover_fill_color='firebrick', hover_alpha=0.5,
+         hover_line_color='white')
+
+# Create a HoverTool: hover
+hover = HoverTool(tooltips=None, mode='vline')
+
+# Add the hover tool to the figure p 
+p.add_tools(hover)
+
+# Specify the name of the output file and show the result
+output_file('hover_glyph.html')
+show(p)
 
 ```
->>![](img/.png)
+>>![](img/bokeh_plot-hover.png)
 
-### 
+### Colormapping
 ```python
+# Make a CategoricalColorMapper object: color_mapper
+color_mapper = CategoricalColorMapper(factors=['Europe', 'Asia', 'US'],
+                                      palette=['red', 'green', 'blue'])
 
+# Add a circle glyph to the figure p
+p.circle('weight', 'mpg', source=source,
+            color=dict(field='origin', transform=color_mapper),
+            legend='origin')
 ```
 >>![](img/.png)
-
-### 
-```python
-
-```
->>![](img/.png)
-
