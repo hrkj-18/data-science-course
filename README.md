@@ -64,11 +64,11 @@
         * Chapter 3 : [Statistical plots with Seaborn](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/statistical-plots-with-seaborn/)
         * Chapter 4 : [Analyzing time series and images](https://hrkj-18.github.io/data-science-course/data-visualization/introduction-to-data-visualization-with-python/)
         
-    2. 
-        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)
-        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-visualization/)    
+    2. __Interactive Data Visualization with Bokeh__
+        * Chapter 1 : [Basic plotting with Bokeh](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/basic-plotting-with-bokeh/)
+        * Chapter 2 : [Layouts, Interactions, and Annotations](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/)
+        * Chapter 3 : [Building interactive apps with Bokeh](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/)
+        * Chapter 4 : [Putting It All Together! A Case Study](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/)    
     
 5. __SQL__
 
