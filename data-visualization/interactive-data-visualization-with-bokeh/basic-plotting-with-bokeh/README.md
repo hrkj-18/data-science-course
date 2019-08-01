@@ -1,6 +1,6 @@
 # Interactive Data Visualization with Bokeh
 
-## Cahpter 1 : Basic plotting with Bokeh
+## Chapter 1 : Basic plotting with Bokeh
 
 ### Scatter Plot
 ```python
