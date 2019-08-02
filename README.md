@@ -19,10 +19,9 @@
         * Chapter 3 : [Lambda functions and error-handling](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/lambda-functions-and-error-handling/)
         
     4. __Python Toolbox 2__
-        * Chapter 1 : [](https://hrkj-18.github.io/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+        * Chapter 1 : [Using iterators in PythonLand](https://hrkj-18.github.io/python-data-science-toolbox-part-2/using-iterators-in-pythonland/)
+        * Chapter 2 : [List comprehensions and generators](https://hrkj-18.github.io/python-data-science-toolbox-part-2/list-comprehensions-and-generators/)
+        * Chapter 3 : [Bringing it all together!](https://hrkj-18.github.io/python-data-science-toolbox-part-2/bringing-it-all-together/)
 
 2. __Importing & Cleaning Data with Python__
 
@@ -36,11 +35,11 @@
         * Chapter 2 : [Interacting with APIs to import data from the web](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/interacting-with-APIs-to-import-data-from-the-web/)
         * Chapter 3 : [Diving deep into the Twitter API](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/diving-deep-into-the-twitter-API/)  
         
-    3. __Introduction to Databases in Python__
-        * Chapter 1 : [](https://hrkj-18.github.io/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+    3. __Introduction to Relational Databases in Python__
+        * Chapter 1 : [Basics of Relational Databases](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/basics-of-relational-databases/)
+        * Chapter 2 : [Applying Filtering, Ordering and Grouping to Queries](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/applying-filtering-ordering-and-grouping-to-queries/)
+        * Chapter 3 : [Advanced SQLAlchemy Queries](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/advanced-sqlalchemy-queries/)
+        * Chapter 4 : [Creating and Manipulating your own Databases](https://hrkj-18.github.io/introduction-to-relational-databases-in-python/creating-and-manipulating-your-own-databases/)
         
     4. __Cleaning Data in Python__
         * Chapter 1 : [Exploring your data](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/exploring-your-data/)
