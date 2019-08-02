@@ -68,7 +68,7 @@
         * Chapter 1 : [Basic plotting with Bokeh](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/basic-plotting-with-bokeh/)
         * Chapter 2 : [Layouts, Interactions, and Annotations](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/layouts-interactions-and-annotations)
         * Chapter 3 : [Building interactive apps with Bokeh](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/building-interactive-apps-with-bokeh/)
-        * Chapter 4 : [Putting It All Together! A Case Study](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/)    
+        * Chapter 4 : [Putting It All Together! A Case Study](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/putting-it-all-together-a-case-study/)    
     
 5. __SQL__
 
