@@ -19,9 +19,10 @@
         * Chapter 3 : [Lambda functions and error-handling](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-1/lambda-functions-and-error-handling/)
         
     4. __Python Toolbox 2__
-        * Chapter 1 : [Using iterators in PythonLand](https://hrkj-18.github.io/basic-python/python-data-science-toolbox-part-2/using-iterators-in-pythonland/)
-        * Chapter 2 : [List comprehensions and generators](https://hrkj-18.github.io/basic-python/python-data-science-toolbox-part-2/list-comprehensions-and-generators/)
-        * Chapter 3 : [Bringing it all together!](https://hrkj-18.github.io/basic-python/python-data-science-toolbox-part-2/bringing-it-all-together/)
+        * Chapter 1 : [Using iterators in PythonLand](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-2/using-iterators-in-pythonland/)
+        * Chapter 2 : [List comprehensions and generators](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-2/list-comprehensions-and-generators/)
+        * Chapter 3 : [Bringing it all together!](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-2/bringing-it-all-together/)
+        
 
 2. __Importing & Cleaning Data with Python__
 
@@ -36,16 +37,17 @@
         * Chapter 3 : [Diving deep into the Twitter API](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/importing-data-in-python-part-2/diving-deep-into-the-twitter-API/)  
         
     3. __Introduction to Relational Databases in Python__
-        * Chapter 1 : [Basics of Relational Databases](https://hrkj-18.github.io/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/basics-of-relational-databases/)
-        * Chapter 2 : [Applying Filtering, Ordering and Grouping to Queries](https://hrkj-18.github.io/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/applying-filtering-ordering-and-grouping-to-queries/)
-        * Chapter 3 : [Advanced SQLAlchemy Queries](https://hrkj-18.github.io/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/advanced-sqlalchemy-queries/)
-        * Chapter 4 : [Creating and Manipulating your own Databases](https://hrkj-18.github.io/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/creating-and-manipulating-your-own-databases/)
+        * Chapter 1 : [Basics of Relational Databases](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/basics-of-relational-databases/)
+        * Chapter 2 : [Applying Filtering, Ordering and Grouping to Queries](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/applying-filtering-ordering-and-grouping-to-queries/)
+        * Chapter 3 : [Advanced SQLAlchemy Queries](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/advanced-sqlalchemy-queries/)
+        * Chapter 4 : [Creating and Manipulating your own Databases](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/introduction-to-relational-databases-in-python/creating-and-manipulating-your-own-databases/)
         
     4. __Cleaning Data in Python__
         * Chapter 1 : [Exploring your data](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/exploring-your-data/)
         * Chapter 2 : [Tidying data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/tidying-data-for-analysis/)
         * Chapter 3 : [Combining data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/combining-data-for-analysis/)
         * Chapter 4 : [Cleaning data for analysis](https://hrkj-18.github.io/data-science-course/importing-and-cleaning-data-with-python/cleaning-data-in-python/cleaning-data-for-analysis/)
+        
         
 3. __Data Manipulation__ 
 
@@ -54,6 +56,7 @@
         * Chapter 2 : [Exploratory data analysis](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/exploratory-data-analysis/)
         * Chapter 3 : [Time series in pandas](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/time-series-in-pandas/)
         * Chapter 4 : [Case Study - Sunlight in Austin](https://hrkj-18.github.io/)
+        
         
 4. __Data Visualization__
 
@@ -68,6 +71,7 @@
         * Chapter 2 : [Layouts, Interactions, and Annotations](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/layouts-interactions-and-annotations)
         * Chapter 3 : [Building interactive apps with Bokeh](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/building-interactive-apps-with-bokeh/)
         * Chapter 4 : [Putting It All Together! A Case Study](https://hrkj-18.github.io/data-science-course/data-visualization/interactive-data-visualization-with-bokeh/putting-it-all-together-a-case-study/)    
+        
     
 5. __SQL__
 
@@ -88,25 +92,27 @@
         * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/sql/)
         * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/sql//)
         * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/sql/)
+        
 
 6. __Statistical Thinking__
 
     1. __Statistical Thinking in Python (Part 1)__
         * Chapter 1 : [Graphical Exploratory Data Analysis](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/)
         
     2. __Statistical Thinking in Python (Part 2)__
-        * Chapter 1 : [](https://hrkj-18.github.io/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/)
+        
 
 7. __Machine Learning__
 
     1. [Supervised Learning with scikit-learn](https://hrkj-18.github.io/data-science-course/machine-learning/supervised-learning-with-scikit-learn/chapter-1/)
-        * Chapter 1 : [](https://hrkj-18.github.io/)
-        * Chapter 2 : [](https://hrkj-18.github.io/)
-        * Chapter 3 : [](https://hrkj-18.github.io/)
-        * Chapter 4 : [](https://hrkj-18.github.io/)
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/)
