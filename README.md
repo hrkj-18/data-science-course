@@ -25,7 +25,7 @@
 
     5. __Python Toolbox 3__
         * Chapter 1 : [Argparse , Timeit module and Zip](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-3/argparse-timeit-module-and-zip/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-3/)
+        * Chapter 2 : [Multiprocessing](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-3/)
         * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/basic-python/python-data-science-toolbox-part-3/)
         
 
