@@ -1,6 +1,6 @@
 # Manipulating Dataframes with Pandas
 
-## Chapter 2 : 
+## Chapter 2 : Advanced Indexing
 
 Indices are immutable
 ### Changing index name labels
