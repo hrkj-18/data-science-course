@@ -62,6 +62,24 @@
         * Chapter 3 : [Time series in pandas](https://hrkj-18.github.io/data-science-course/data-manipulation/pandas-foundation/time-series-in-pandas/)
         * Chapter 4 : [Case Study - Sunlight in Austin](https://hrkj-18.github.io/)
         
+    2. __Manipulating DataFrames with pandas__
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
+    
+    3. __Merging DataFrames with pandas__
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
+    
+    4. __Analyzing Police Activity with pandas__
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/analyzing-police-activity-with-pandas/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/analyzing-police-activity-with-pandas/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/analyzing-police-activity-with-pandas/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/analyzing-police-activity-with-pandas/)
+        
         
 4. __Data Visualization__
 
@@ -92,10 +110,10 @@
         * Chapter 3 : [Uniquely identify records with key constraints](https://hrkj-18.github.io/data-science-course/sql/introduction-to-relational-databases-in-sql/uniquely-identify-records-with-key-constraints/)
         * Chapter 4 : [Glue together tables with foreign keys](https://hrkj-18.github.io/data-science-course/sql/introduction-to-relational-databases-in-sql/glue-together-tables-with-foreign-keys/)
 
-    3. 
+    3. ____
         * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/sql/)
         * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/sql/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/sql//)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/sql/)
         * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/sql/)
         
 
@@ -103,15 +121,15 @@
 
     1. __Statistical Thinking in Python (Part 1)__
         * Chapter 1 : [Graphical Exploratory Data Analysis](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/graphical-exploratory-data-analysis/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/)
-        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-1/)
         
     2. __Statistical Thinking in Python (Part 2)__
-        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/)
-        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/)
+        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-2/)
+        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-2/)
+        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-2/)
+        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/statistical-thinking/statistical-thinking-in-python-part-2/)
         
 
 7. __Machine Learning__
