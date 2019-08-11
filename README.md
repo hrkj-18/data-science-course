@@ -63,15 +63,15 @@
         * Chapter 4 : [Case Study - Sunlight in Austin](https://hrkj-18.github.io/)
         
     2. __Manipulating DataFrames with pandas__
-        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
-        * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/)
+        * Chapter 1 : [Extracting and Transforming Data](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/extracting-and-transforming-data/)
+        * Chapter 2 : [Advanced Indexing](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/advanced-indexing/)
+        * Chapter 3 : [Rearranging and Reshaping Data](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/rearranging-and-reshaping-data/)
+        * Chapter 4 : [Grouping Data](https://hrkj-18.github.io/data-science-course/data-manipulation/manipulating-dataframes-with-pandas/grouping-data/)
     
     3. __Merging DataFrames with pandas__
-        * Chapter 1 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
-        * Chapter 2 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
-        * Chapter 3 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
+        * Chapter 1 : [Preparing data](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/preparing-data/)
+        * Chapter 2 : [Concatenating data](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/concatenating-data/)
+        * Chapter 3 : [Merging data](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
         * Chapter 4 : [](https://hrkj-18.github.io/data-science-course/data-manipulation/merging-dataframes-with-pandas/)
     
     4. __Analyzing Police Activity with pandas__
